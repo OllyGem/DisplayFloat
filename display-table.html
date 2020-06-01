@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DisplayTable</title>
+
+    <style>
+        body{ padding: 0;margin: 0;}
+        ol{ list-style: none; padding: 0;}
+
+        .content{
+            background: #567;
+            color: #fff;
+
+            display: table;
+            width: 80%;
+            margin: 1em auto;
+        }
+
+        .content>div{
+            display: table-row;
+        }
+
+        .content article,
+        .content ol{
+            display: table-cell;
+            padding: 1em;
+            vertical-align: middle;
+        }
+
+        .content article{
+            width: 66.66%;
+        }
+
+        .content ol{
+            width: 33.33%;
+        }
+
+        .content p{
+            text-align: justify;
+        }
+
+        .content a{
+            color: #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--css > element = table, row, cell -->
+    <section class="content"> <!-- table  -->
+        <div> <!-- row  -->
+            <article> <!-- cel  -->
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dolorem nisi incidunt, vero placeat tenetur enim! Eveniet delectus molestiae quam ut reprehenderit cupiditate, nam reiciendis officiis nihil excepturi corporis animi sunt veniam numquam blanditiis minus nisi iure! Recusandae dolores cupiditate laborum quo nobis cum tempore impedit. Sapiente optio temporibus mollitia.</p>
+                <p>Reprehenderit debitis repellendus quasi perspiciatis distinctio ipsa ullam illo laudantium facere vitae reiciendis fugiat totam, nisi voluptate! Voluptates dignissimos harum minus aut iste nihil earum? Omnis quia reiciendis dolor, suscipit esse dolorem aut voluptatum! Asperiores nisi cumque enim alias voluptatum, nihil voluptates. Doloribus, odit esse repudiandae ratione quia aspernatur architecto.</p>
+                <p>Officia quidem culpa quisquam fugit officiis perferendis amet odio delectus impedit pariatur voluptate non error fuga dicta itaque, ipsum, vel laboriosam deserunt. Ipsa libero quae tempora ea quo vero animi alias dolorem neque distinctio sequi molestias consectetur accusamus natus laboriosam, consequuntur architecto. Officia atque amet odit quasi exercitationem? Quam, voluptatem.</p>
+                <a href="">READ MORE</a>
+            </article>
+
+            <ol>
+                <li>
+                    <h2>Lorem, ipsum dolor.</h2>
+                </li>
+                <li>
+                    <h2>Voluptates, adipisci dolorum.</h2>
+                </li>
+                <li>
+                    <h2>Quia, et obcaecati?</h2>
+                </li>
+                <li>
+                    <h2>Non, neque eveniet!</h2>
+                </li>
+                <li>
+                    <h2>Molestias, tenetur quisquam?</h2>
+                </li>
+            </ol>
+        </div>
+    </section>
+</body>
+</html>
